@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+	<body>
+		<div class="bg">
+			<div class="head">
+				<div class="top">
+					<img src="img/icon/Icon_2_Console.png" id="fold_btn" />
+					top
+				</div>
+				<a href="system.html"><img class="system" src="img/icon/Icon_7_Disk.png"/></a>
+				<hr>
+				<div class="home_main">
+					<div class="user_main">
+						<img src="img/icon/Icon_7_Disk.png"/>
+						<ul>
+						<li>Coffee</li>
+						<li>Milk</li>
+						<li>Coffee</li>
+						<li>Milk</li>
+						<li>Coffee</li>
+						</ul>
+					</div>
+					<div class="msg_list">
+						<div>
+							<h2>title</h2>
+							<p>ppppppppppppppppp</p>
+						</div>
+						<hr>
+						<div>
+							<h2>title</h2>
+							<p>ppppppppppppppppp</p>
+						</div>
+						<hr>
+						<div>
+							<h2>title</h2>
+							<p>ppppppppppppppppp</p>
+						</div>
+						<hr>
+						<div>
+							<h2>title</h2>
+							<p>ppppppppppppppppp</p>
+						</div>
+						<hr>
+						<div>
+							<h2>title</h2>
+							<p>ppppppppppppppppp</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+
+</html>
+<style>
+	.home_main{
+		display: flex;
+	}
+	.user_main{
+		width: 20%;
+		background-color: pink;
+	}
+	.msg_list{
+		flex: 1;
+		background-color: aqua;
+	}
+	.user_main,.msg_list{
+		height: 435px;
+	}
+	.user_main>ul{
+		margin-top: 20px;
+		background-color: transparent;
+		list-style-image: url("img/icon/Icon_13_Camera.png");
+		
+	}
+	.user_main>ul>li{
+		border-bottom: 2px  solid pink;
+	}
+	.user_main>ul>li,.user_main>img{
+		margin-bottom: 5px;
+		height: 50px;
+	}
+	.msg_list{
+		overflow-x: hidden;
+		overflow-y: scroll;
+		padding: 5px;
+		color: #d3d3d3;
+		background-color: blanchedalmond;
+	}
+	.msg_list::-webkit-scrollbar {
+		display: none;
+	}
+	.msg_list{
+		height: 425px;
+	}
+</style>
