@@ -105,6 +105,7 @@
 	/*消息框*/
 	.message {
 		width: 300px;
+		
 		background-color: aquamarine;
 		margin-bottom: 20px;
 		text-align: left;
